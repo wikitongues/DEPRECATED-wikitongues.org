@@ -3,8 +3,10 @@
 Wordpress theme for Wikitongues.org.
 
 ###Current Features
-* Compose translation dictionaries between two languages using text
-* Browse available dictionaries
+* Site content provides general overview of the organization
+* Users can apply to volunteer
+* Users can submit their own videos
+* Users can donate to the organization 
 
 # Feature Map
 
