@@ -15,7 +15,8 @@ Wordpress theme for Wikitongues.org.
 - [ ] Reformat team page to be edited in CMS
 - [ ] Reformat navigation to be edited in CMS
 - [ ] Reformat background videos to stream from YouTube 
-- [ ] Build Poly Page 
+- [ ] Build Poly Page
+- [ ] Refine mobile design
 
 ###Version 1.2
 - [ ] Review and update all copy
