@@ -12,7 +12,7 @@ Wordpress theme for Wikitongues.org.
 
 ###Version 0.1
 - [ ] Update terms and services to reflect current licensing policy
-- [ ] Reformat team page dynamic so that it can be edited in CMS
+- [ ] Reformat team page to be edited in CMS
 - [ ] Reformat navigation to be edited in CMS
 - [ ] Reformat background videos to stream from YouTube 
 - [ ] Build Poly Page 
@@ -33,8 +33,11 @@ Wordpress theme for Wikitongues.org.
   - [ ] Refine press page
 
 ###Version 0.4
-- [ ] Add tags to books
-- [ ] Search
+- [ ] Video section
+  - [ ] Display
+  - [ ] Filter display
+  - [ ] Search
+- [ ] Process money donations in-site
 
 ###Version 2.0
 - [ ] Public Forum
