@@ -25,20 +25,23 @@ Wordpress theme for Wikitongues.org.
   - [ ] Style body
   - [ ] Add language to subject of new video
 
-###Version  1.3
+###Version 1.3
+- [ ] Language localization (i18n for Wordpress)
+
+###Version  1.4
 - [ ] Optimize content for load time
   - [ ] Lazy load
 - [ ] Refine overall design
   - [ ] Refine donate page
   - [ ] Refine press page
 
-###Version 1.4
+###Version 2.0
 - [ ] Video section
   - [ ] Display
   - [ ] Filter display
   - [ ] Search
 - [ ] Process money donations in-site
 
-###Version 2.0
+###Version 2.1
 - [ ] Public Forum
 - [ ] Blog integration
