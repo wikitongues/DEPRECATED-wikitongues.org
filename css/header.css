@@ -1,0 +1,103 @@
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  padding: 15px 40px;
+  margin-top: 15px;
+  -webkit-transition: background-color  .15s ease;
+  -o-transition: background-color  .15s ease;
+  transition: background-color  .15s ease;
+}
+
+header * {
+  color: white;
+}
+
+body:not(.home) header,
+header.scrolled {
+  position: fixed;
+  margin-top: 0;
+  background-color: white;
+  padding: 15px 40px;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.1);
+}
+
+header.scrolled {
+  top: 0;
+}
+
+body:not(.home) header *,
+header.scrolled * {
+  color: black;
+}
+
+body:not(.home) header nav .logo .icon,
+header.scrolled nav .logo .icon {
+  margin: 0;
+  background-image: url("http://fredericoandrade.com/folder/wikitongues/homepage/wp-content/uploads/2015/10/logoSprite-black1.png");
+}
+
+header nav .logo {
+  float: left;
+}
+
+header nav .logo .icon, header nav .logo p {
+  float: left;
+}
+
+header nav .logo .icon {
+  width: 30px;
+  height: 25px;
+  background-image: url("http://fredericoandrade.com/folder/wikitongues/homepage/wp-content/uploads/2015/10/logoSprite-white.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: -5px;
+}
+
+header nav .logo p {
+  margin: 0 0 0 5px;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+  opacity: 1;
+  -webkit-transition: opacity .2s ease;
+  -o-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+}
+
+header nav ul {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  float: left;
+  margin-right: 25px;
+}
+
+header nav ul li.current_page_item {
+  border-bottom: 3px solid #fec23d;
+}
+
+header nav ul li:last-of-type {
+  margin-right: 0;
+}
+
+body:not(.home) header nav ul li a ,
+header.scrolled nav ul li a {
+  text-shadow: none;
+}
+
+body:not(.home) header nav .logo p,
+header.scrolled nav .logo p {
+  opacity: 0;
+  -webkit-transition: opacity 0s linear;
+  -o-transition: opacity 0s linear;
+  transition: opacity 0s linear;
+}
+
+header nav ul li a {
+  font-weight: 300;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}

@@ -1,0 +1,33 @@
+/*
+Theme Name: Wikitongues
+Theme URI: https://wikitongues.org;
+Author: Daniel Bogre Udell (@dbudell) & Freddie Andrade (@freddieandrade)
+Author URI: https://dbudell.com & https://fredericoandrade.com;
+Description: Custom theme for Wikitongues.org
+Version: 1.0
+License: Standard IP
+*/
+
+@import url('css/normalize.css');
+
+@import url('css/main.css');
+
+@import url('css/custom.css');
+
+@import url('css/banners.css');
+
+@import url('css/content-blocks.css');
+
+@import url('css/index.css');
+
+@import url('css/about.css');
+
+@import url('css/join.css');
+
+@import url('css/header.css');
+
+@import url('css/forms.css');
+
+@import url('css/footer.css');
+
+@import url('css/media-queries.css');

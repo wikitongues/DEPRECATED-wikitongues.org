@@ -1,0 +1,140 @@
+footer {
+  background: rgba(17,36,47,1);
+  background: -moz-linear-gradient(45deg, rgba(17,36,47,1) 0%, rgba(0,30,47,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(17,36,47,1)), color-stop(100%, rgba(0,30,47,1)));
+  background: -webkit-linear-gradient(45deg, rgba(17,36,47,1) 0%, rgba(0,30,47,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(17,36,47,1) 0%, rgba(0,30,47,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(17,36,47,1) 0%, rgba(0,30,47,1) 100%);
+  background: linear-gradient(45deg, rgba(17,36,47,1) 0%, rgba(0,30,47,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#11242f', endColorstr='#001e2f', GradientType=1 );
+}
+
+footer {
+  color: #78858A;
+  float: left;
+  width: 100%;
+  padding: 70px 0 160px;
+}
+
+footer .footer {
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+footer .footer .copyright {
+  float: left;
+  margin-left: 90px;
+}
+
+footer .footer .copyright .logo p {
+  font-weight: bold;
+  color: white;
+}
+
+footer .footer .copyright .logo p img {
+  margin-top: -12px;
+}
+
+footer .footer .copyright p {
+  margin: 0;
+  font-weight: 300;
+}
+
+footer .footer nav {
+  float: right;
+}
+
+footer .footer nav ul {
+  float: left;
+  list-style-type: none;
+  width: 160px;
+  padding: 0;
+  margin: 0;
+}
+
+footer .footer nav ul li.header {
+  color: white;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+footer .footer nav ul li {
+  margin-bottom: 5px;
+  display: inline-block;
+  width: 100%;
+  float: left;
+}
+
+footer .footer nav ul li a {
+  color: #78858A;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14px;
+  display: inline-block;
+  float: left;
+}
+
+div#contact-wrap {
+  display: none;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17,36,47,.5);
+  z-index:100000 !important;
+  -webkit-transition: opacity ease-in-out 0.2s;
+  -o-transition: opacity ease-in-out 0.2s;
+  transition: opacity ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+div#contact-wrap.active {
+  opacity: 1;
+}
+
+div#contact-wrap.active .modal {
+  margin-right: 0;
+}
+
+div#contact-wrap .modal {
+  overflow-y: scroll;
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  max-width: 500px;
+  margin-right: -100%;
+  float: right;
+  padding: 30px;
+  height: 100%;
+  -webkit-transition: margin-right ease-in-out 0.2s;
+  -o-transition: margin-right ease-in-out 0.2s;
+  transition: margin-right ease-in-out 0.2s;
+  cursor: initial;
+  position: relative;
+}
+
+div#contact-wrap .modal .close {
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    font-weight: 300;
+    color: #bbb;
+    cursor: pointer;
+}
+
+div#contact-wrap .modal .form-page {
+  margin-top: 0;
+}
+
+div#contact-wrap .modal .form-page h1 {
+  width: 100%;
+  margin: 0;
+}
+
+div#contact-wrap .modal p {
+  text-align: center;
+}

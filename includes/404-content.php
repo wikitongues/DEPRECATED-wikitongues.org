@@ -1,0 +1,1 @@
+<h1>Seems this page is missing. Sorry about that. <a href="<?php bloginfo('url'); ?>">Take me home</a></h1>

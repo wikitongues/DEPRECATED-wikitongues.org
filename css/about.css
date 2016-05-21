@@ -1,0 +1,69 @@
+.team-list {
+	margin-top: 80px;
+}
+
+ul.volunteer-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align:center;
+}
+
+ul.volunteer-list li {
+	display:inline-block;
+	width:30%;
+	margin:0 1% 5%;
+	vertical-align:top;
+}
+
+ul.volunteer-list li .portrait {
+	position:relative;
+	width: 75%;
+	height: auto;
+	background: #eaeaea;
+	margin:0 auto 25px;
+}
+
+ul.volunteer-list li .portrait,
+ul.volunteer-list li .portrait-inner,
+ul.volunteer-list li .portrait-filter {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+ul.volunteer-list li .portrait-inner {
+	position:relative;
+	padding-bottom:100%;
+/*	-webkit-filter:grayscale(100%);
+	-moz-filter:grayscale(100%);
+	filter:grayscale(100%);*/
+}
+
+ul.volunteer-list li .portrait-filter {
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background:#0a212e;
+	opacity:.2;
+}
+
+ul.volunteer-list li p {
+	margin:5px auto !important;
+	text-align:center !important;
+	width: 75% !important;
+}
+
+ul.more-volunteers {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	-webkit-column-count: 5;
+	font-weight: 300;
+}
+
+ul.more-volunteers li {
+	padding: 2px 0;
+}

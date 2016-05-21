@@ -1,0 +1,137 @@
+.home .page-banner.video {
+  max-height:none;
+}
+
+.home .page-banner .banner-content {
+  top: 50%;
+  bottom: initial;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.home .content {
+  padding-bottom: 0;
+  display: initial;
+}
+
+.home .content .post .post-border {
+  height: 60px;
+  box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.home .content .post .content-wrapper p {
+  margin: 60px auto 150px;
+}
+
+.home .content .post .content-wrapper h1 {
+  margin-top: 80px;
+}
+
+.home .content .post .content-wrapper h1 {
+  border: none;
+}
+
+.home .content .post:not(:first-of-type) .content-wrapper h1 {
+  margin-top: 140px;
+  padding: 0 130px 0 0;
+  text-align: left;
+  width: 66.667%;
+}
+
+#a-movement-for-language-rights-w .content-wrapper {
+  width: 100%;
+}
+
+#a-movement-for-language-rights-w .content-wrapper,
+#a-movement-for-language-rights-w .content-wrapper * {
+  min-width: 300px;
+}
+
+#a-movement-for-language-rights-w .content-wrapper h1 {
+  text-align: center;
+}
+
+#a-movement-for-language-rights-w .content-wrapper p {
+  width: 66%;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 70px auto 120px;
+}
+
+#support-wikitongues-w .content-wrapper h1 {
+  border-color: #FEC23D;
+}
+
+#interviews-w .content-wrapper h1 {
+  border-color: #FF4284;
+}
+
+#poly-w {
+  float: left;
+  width: 100%;
+}
+
+#poly-w .post-border {
+  height: 2px;
+}
+
+#poly-w .content-wrapper {
+  max-width: initial;
+  width: 100%;
+  background: #64fdae;
+  padding: 0;
+  float: left;
+}
+
+#poly-w .content-wrapper #poly,
+#poly-w .content-wrapper .banner-content {
+  height: 800px;
+}
+
+#poly-w .content-wrapper #poly {
+  position: absolute;
+  background-image: url(http://wikitongues.org/wp-content/uploads/2016/01/poly-phone.png);
+  background-size: 560px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 50vw -40px;
+  float: left;
+}
+
+#poly-w .content-wrapper .banner-content {
+  float: left;
+  position: relative;
+  z-index: 10;
+  left: 50%;
+  transform: translateX(-100%);
+}
+
+#poly-w .content-wrapper .banner-content * {
+  color: white;
+}
+
+#poly-w .content-wrapper .banner-content h1 {
+  margin-top: 180px;
+  margin-bottom: 40px;
+}
+
+#poly-w .content-wrapper .banner-content h1,
+#poly-w .content-wrapper .banner-content p {
+  text-shadow: 0 1px 10px rgba(0,0,0,0.1);
+  float: left;
+  clear: both;
+}
+
+#poly-w .content-wrapper .banner-content p {
+  margin: 0;
+  width: 400px;
+}
+
+#poly-w .content-wrapper .banner-content p.banner-copy {
+  font-size: 1.8em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: left;
+}

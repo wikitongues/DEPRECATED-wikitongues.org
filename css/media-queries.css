@@ -1,0 +1,510 @@
+@media all and (max-width : 600px) {
+  html {width: 100%;}
+
+  * h1 {
+    font-size:2.5rem !important;
+  }
+
+  /*Header*/
+  header,
+  header.scrolled {
+    padding: 20px 10px 10px !important;
+  }
+
+  header.scrolled nav {
+    margin-top: 10px;
+  }
+
+  header nav {
+    display: inline-block;
+    width: 100%;
+  }
+
+  header nav a p {
+    display: none;
+  }
+
+  header nav ul li {
+    margin: 0 5px;
+  }
+
+  header nav ul li a {
+    padding: 0 5px;
+    font-weight: 500;
+  }
+
+  header nav ul li:last-of-type {
+    margin-right: initial;
+  }
+
+  /*Index*/
+  .page-banner .banner-content.right,
+  .page-banner .banner-content.left {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: initial;
+    -webkit-transform: initial;
+    -moz-transform: initial;
+    transform: initial;
+  }
+
+  .home header {
+    margin-top: 0;
+  }
+
+  .home .page-banner .banner-content.right h1 {
+    margin-right:0;
+    width:100%;
+    text-align:right;
+  }
+
+  .home .content .page-banner .banner-content.right h1,
+  .home .content .page-banner .banner-content.left h1 {
+    width: 100%;
+    margin: 0 0 25px 0;
+    text-align: center;
+  }
+
+  .home .page-banner .banner-content.right a,
+  .home .page-banner .banner-content.left a {
+    display: block;
+    margin: auto;
+    float: none;
+    width: 100%;
+  }
+
+  .home .page-banner .banner-content.right a.banner-link,
+  .home .page-banner .banner-content.left a.banner-link {
+    margin: 25px 0;
+  }
+
+  .home .content .post .content-wrapper {
+    min-height: initial;
+  }
+
+  .home .content .post#a-movement-for-language-rights-w .content-wrapper h1,
+  .home .content .post:not(:first-of-type) .content-wrapper h1 {
+    width: 100%;
+    padding: 0;
+    /*font-size: 52px;*/
+  }
+
+  .home .content .post#a-movement-for-language-rights-w .content-wrapper h1 {
+    margin-top: 50px;
+    padding: 0 0 0 20px;
+  }
+
+  .home .content .post:not(:first-of-type) .content-wrapper h1 {
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+
+  .home .content .post#a-movement-for-language-rights-w .content-wrapper h1,
+  .home .content .post#interviews-w .content-wrapper h1 {
+    text-align: left;
+  }
+
+  .home .content .post#support-wikitongues-w .content-wrapper h1 {
+    text-align: right;
+  }
+
+  .home .content .post#a-movement-for-language-rights-w .content-wrapper p{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .home .content .post .content-wrapper p {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .home .content .post#a-movement-for-language-rights-w .content-wrapper p:last-of-type {
+    margin: 0 0 70px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .home .content .post#poly-w {
+    height: 440px;
+  }
+
+  .home .content .post#poly-w .post-border {
+    position: relative;
+  }
+
+  .home .content .post#poly-w .content-wrapper {
+    height: 100%;
+    margin-top: -2px;
+  }
+
+  .home .content .post#poly-w .content-wrapper #poly {
+    background-size: 270px;
+    background-position: 44vw -15px;
+    height: 440px;
+    margin-top: -2px;
+  }
+
+  .home .content .post#poly-w .content-wrapper .banner-content {
+    left: initial;
+    transform: initial;
+    height: initial;
+    width: 50%;
+  }
+
+  .home .content .post#poly-w .content-wrapper .banner-content h1 {
+    margin: 30px 0;
+  }
+
+  .home .content .post#poly-w .content-wrapper .banner-content p {
+    padding: 0 0 20px 20px;
+  }
+
+  .home .content .post#poly-w .content-wrapper .banner-content .banner-copy {
+    font-size: 1em;
+  }
+
+  .home .content .post#poly-w .content-wrapper .banner-content p .banner-button {
+    font-size: 1em;
+    padding: 14px;
+  }
+
+  .home .content .post#poly-w .content-wrapper .banner-content h1,
+  .home .content .post#poly-w .content-wrapper .banner-content .banner-copy,
+  .home .content .post#poly-w .content-wrapper .banner-content p .banner-link {
+    color: #1c3e51;
+  }
+
+  .home .content .post#poly-w .content-wrapper .banner-content h1,
+  .home .content .post#poly-w .content-wrapper .banner-content p {
+    width: 100%;
+  }
+
+  /*Page banners*/
+  .page-banner .banner-content h1 {
+    font-size: 40pt;
+    margin: 25px;
+    float: none;
+    width: auto;
+    text-align: center;
+  }
+
+  .page-banner .banner-content a.banner-button, .content .post .content-wrapper p a.banner-button {
+    float: none;
+    margin: 0 auto 25px;
+    width: 100%;
+  }
+
+  .page-banner .banner-content a.banner-link {
+    display: none;
+  }
+
+  /*Page SubNav*/
+  .sub-nav-list {
+    width: 90%;
+    position: initial;
+    left: initial;
+    transform: initial;
+    padding: 0;
+    text-align: center;
+    display: table;
+    width: auto;
+  }
+
+  .sub-nav-list li.sub-nav-item {
+    margin: 0 12.5px;
+  }
+
+  .sub-nav-list li.sub-nav-item:last-of-type {
+    margin-right: 12.5px;
+  }
+
+  /*Pages*/
+
+  .content {
+    display: block;
+  }
+
+  .content .post {
+    overflow: auto;
+  }
+
+  .content .post .content-wrapper {
+    display: block;
+  }
+
+  .content .post .content-wrapper .block h1,
+  .donate .content .post .content-wrapper h1 {
+    margin: 0 auto 80px;
+    font-size: 51px;
+    text-align: left;
+  }
+
+  .content .post .content-wrapper .block .team-list ul.volunteer-list li {
+    width: 100%;
+    margin: 0 1% 60px;
+  }
+
+  .content .post .content-wrapper .block .team-list ul.more-volunteers {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    column-count: 2;
+  }
+
+  .content .post .content-wrapper p,
+  .content .post .content-wrapper p a,
+  .content .post .content-wrapper .block h2,
+  .content .post .content-wrapper p.pullquote {
+    width: 90%;
+    min-width: initial !important;
+  }
+
+  .content .post .content-wrapper p,
+  .content .post .content-wrapper p a,
+  .content .post .content-wrapper p em,
+  .content .post .content-wrapper .block ol * {
+    text-align: left;
+  }
+
+  .content .post .content-wrapper .block .col-1,
+  .content .post .content-wrapper .block .col-2,
+  .content .post .content-wrapper .block ol {
+    width: 90%;
+    margin: auto;
+    float: none;
+  }
+
+  .content .post .content-wrapper .block .col-1 em {
+    margin: 0 auto 50px;
+  }
+
+  .content .post .content-wrapper .block ol li {
+    margin-bottom: 30px;
+  }
+
+  .content .post .content-wrapper .block .media .wrapper /*img.w-two*/ {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 25px;
+  }
+
+  /*Specific pages*/
+  .about .content .post .content-wrapper p:first-of-type,
+  .interviews .content .post .content-wrapper .pullquote,
+  .join .content .post#guidelines-w .content-wrapper > p:first-of-type {
+    margin: 0 auto 60px;
+  }
+
+  body.join .content .post .content-wrapper .block p {
+    margin-bottom: 0;
+  }
+
+  body.join .content .post .content-wrapper .block p em {
+    text-align: left;
+  }
+
+  .interviews .content .post .content-wrapper .pullquote {
+    padding: 0 10px;
+  }
+
+  .donate .page-banner .banner-content a.banner-button {
+    position: initial;
+  }
+
+  .donate .content .post .content-wrapper .block {
+    margin-bottom: 40px;
+  }
+
+  .donate .content .post .content-wrapper .block h2 {
+    margin-top: 0;
+  }
+
+  /*Table*/
+  .content .post .content-wrapper .block table {
+    display: block;
+    font-size: 12px;
+  }
+
+  .content .post .content-wrapper .block table th,
+  .content .post .content-wrapper .block table td {
+    padding: 9px;
+  }
+
+  .content .post .content-wrapper .block table th:nth-of-type(2) {
+    width: 20%;
+  }
+
+  .content .post .content-wrapper .block table th:nth-of-type(3) {
+    width: 46%;
+  }
+
+  /*Forms*/
+  .content .post .content-wrapper .form-page {
+    margin: 0 auto;
+  }
+
+  .content .post .content-wrapper .form-page h1,
+  .content .post .content-wrapper .form-page form .grouping .input.col-1 {
+    width: 100%;
+  }
+
+  .content .post .content-wrapper .form-page form .grouping .input.col-1:nth-of-type(n),
+  .content .post .content-wrapper .form-page form .grouping .input.col-1:nth-of-type(2n) {
+    padding: 0;
+  }
+
+  .content .post .content-wrapper .form-page form .grouping .input.col-1:nth-of-type(2n) label {
+    left: 10px;
+  }
+
+  .content .post .content-wrapper .form-page form .grouping .input label {
+    font-size: 15px;
+    top: 12px;
+  }
+
+  .content .post .content-wrapper .form-page form .grouping .input.checkbox,
+  .content .post .content-wrapper .form-page form .grouping .input.checkbox:nth-of-type(1),
+  .content .post .content-wrapper .form-page form .grouping .input.checkbox:nth-of-type(2) {
+    margin-top: 20px;
+  }
+
+  .content .post .content-wrapper .form-page form .grouping .input.checkbox input {
+    margin-top: 0 !important;
+  }
+
+  .content .post .content-wrapper .form-page form .grouping .input.checkbox label {
+    width: 90%;
+    margin-left: 11px;
+  }
+
+  .form-page form .grouping#releaseForm h2,
+  .form-page form .grouping#publicityClause h2,
+  .form-page form .grouping#codeOfEthics h2 {
+    float:none;
+  }
+
+  .form-page form .grouping .inset {
+    width:100%;
+  }
+
+  .form-page form #publicityClause.inset.open .insetWrapper,
+  .form-page form #releaseForm.inset.open .insetWrapper,
+  .form-page form #codeOfEthics.inset.open .insetWrapper
+   {
+    height:initial;
+  }
+
+  input#interviewee-language, input#interview-file, textarea#optional-translations {
+    padding-bottom:30px;
+  }
+
+  /*Footer*/
+  footer {
+    padding: 70px 0;
+  }
+
+  footer .footer .copyright {
+    margin-left: 30px;
+  }
+
+  footer .footer nav ul {
+    float: none;
+    display: table;
+    margin-bottom: 25px;
+  }
+
+  footer .footer nav ul li {
+    margin-bottom: 3px;
+  }
+
+  footer .footer nav ul li.header {
+    margin: 0;
+    padding: 3px 0;
+  }
+}
+
+/* iPhone 4 + 5 specific styles */
+
+@media all and (max-width:360px) {
+
+  header.scrolled {
+    padding-bottom:0;
+  }
+
+  header nav ul, header.scrolled nav ul {
+    float: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+    overflow: auto;
+    text-align:center;
+  }
+
+  header nav ul li, header.scrolled nav ul li {
+    display:inline;
+    float:none;
+  }
+
+  header nav .logo, header.scrolled nav .logo {
+    float:none;
+  }
+
+  header nav .logo .icon, header.scrolled nav .logo .icon {
+    float:none;
+    display:block;
+    margin:-5px auto 5px;
+  }
+
+  .sub-nav {
+    height:initial;
+  }
+
+  .sub-nav ul.sub-nav-list {
+    position:relative;
+    left:initial;
+    webkit-transform:initial;
+    moz-transform:initial;
+    transform:initial;
+    width:100%;
+    text-align:center;
+  }
+
+  .sub-nav ul.sub-nav-list li {
+    display:block;
+    float:none;
+    margin:0 0 5px 0;
+  }
+
+  /* donate page */
+
+  div#why-donate-to-wikitongues-w a.banner-button,
+  div#how-to-donate-w a.banner-button {
+    margin-top:30px;
+  }
+
+  /* footer */
+
+  footer .footer div, footer .footer nav,  footer .footer nav ul {
+    width: 100%;
+    margin: 0 0 20px 0 !important;
+    text-align: center;
+  }
+
+  footer .footer nav ul li {
+    text-align:center;
+  }
+
+  footer .footer nav ul li a {
+    float:none;
+  }
+
+}

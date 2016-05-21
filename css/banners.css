@@ -1,0 +1,155 @@
+.page-banner {
+	height: 90vh;
+	max-height: 70vh;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center 40%;
+	background-repeat: no-repeat;
+}
+
+.page-banner a, .page-banner a:visited {
+	color:#fff;
+	text-decoration:none;
+}
+
+.page-banner #video {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: 100%;
+/*	z-index: -100;*/
+}
+
+.page-banner.video.vertical #video {
+	height: auto;
+	width: 100%;
+	left: 0;
+}
+
+.page-banner .banner-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .5;
+}
+
+.page-banner .banner-content {
+	position: absolute;
+	z-index: 5;
+	bottom: 0;
+	text-align: center;
+	color: white;
+	width: 100%;
+	padding: 1% 5%;
+	padding: 1vw 5vw;
+}
+
+.page-banner .banner-content h1 {
+	font-size: 44pt;
+	width: 450px;
+	display: block;
+	line-height: 1.2;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	float: right;
+	margin: 0 0 3% 0;
+	margin: 0 0 3vw 0;
+}
+
+.page-banner .banner-content.left {
+	text-align: left;
+}
+
+.page-banner .banner-content.right {
+	text-align: right;
+}
+
+.page-banner .banner-content a.banner-button,
+.content .post .content-wrapper p a.banner-button {
+	width: 320px;
+	text-align: center;
+}
+
+.content .post .content-wrapper p a.banner-button {
+	clear: both;
+}
+
+.donate .page-banner .banner-content a.banner-button {
+	position: absolute;
+	bottom: 3vw;
+}
+
+.page-banner .banner-content a {
+	float: left;
+}
+
+.home .page-banner .banner-content.left h1,
+.home .page-banner .banner-content.left a {
+	float: left;
+}
+
+.home .page-banner .banner-content.right h1,
+.home .page-banner .banner-content.right a {
+	float: right;
+}
+
+.home .page-banner .banner-content h1,
+.home .page-banner .banner-content a {
+	clear: both;
+}
+
+.home .page-banner .banner-content a.banner-link {
+	width: 320px;
+	text-align: center;
+	padding: 0;
+}
+
+.page-banner .banner-content a.banner-button,
+.content .post .content-wrapper p a.banner-button,
+#poly-w .page-banner .banner-content .form form p input[type='submit'],
+.form-page form input[type='submit'] {
+	display: block;
+	background: #4799FC;
+	box-shadow: 0 1px 0 #336FB0;
+	border-top: 1px solid #68ABFD !important;
+	border-radius: 2.5px;
+	padding: 25px;
+	margin-bottom: 25px;
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 0.7px;
+	color: white;
+}
+
+.page-banner .banner-content a.banner-button:hover,
+.content .post .content-wrapper p a.banner-button:hover,
+#poly-w .page-banner .banner-content .form form p input[type='submit']:hover,
+.form-page form input[type='submit']:hover {
+	box-shadow: 0 1px 0 #336FB0, 0 2px 4px rgba(34,84,137,0.5);
+}
+
+.content .post .content-wrapper p a.banner-button {
+	margin: 30px auto 25px;
+	width: 320px;
+}
+
+.form-page form input[type='submit'] {
+	border:none;
+	width: 100%;
+	margin: 1em 0;
+}
+
+.page-banner .banner-content a.banner-link {
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 30px;
+	padding: 30px;
+}
