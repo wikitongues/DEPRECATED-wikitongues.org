@@ -10,14 +10,14 @@ Wordpress theme for Wikitongues.org.
 
 # Feature Map
 
-###Version 0.1
+###Version 1.1
 - [ ] Update terms and services to reflect current licensing policy
 - [ ] Reformat team page to be edited in CMS
 - [ ] Reformat navigation to be edited in CMS
 - [ ] Reformat background videos to stream from YouTube 
 - [ ] Build Poly Page 
 
-###Version 0.2
+###Version 1.2
 - [ ] Review and update all copy
 - [ ] Add URLs to sub-navigation sections
 - [ ] Build welcome page for volunteers
@@ -25,14 +25,14 @@ Wordpress theme for Wikitongues.org.
   - [ ] Style body
   - [ ] Add language to subject of new video
 
-###Version  0.3
+###Version  1.3
 - [ ] Optimize content for load time
   - [ ] Lazy load
 - [ ] Refine overall design
   - [ ] Refine donate page
   - [ ] Refine press page
 
-###Version 0.4
+###Version 1.4
 - [ ] Video section
   - [ ] Display
   - [ ] Filter display
