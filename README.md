@@ -17,6 +17,7 @@ Wordpress theme for Wikitongues.org.
 - [ ] Reformat background videos to stream from YouTube 
 - [ ] Build Poly Page
 - [ ] Refine mobile design
+- [ ] Set up uptime monitor for WP application
 
 ###Version 1.2
 - [ ] Review and update all copy
