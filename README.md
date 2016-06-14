@@ -26,7 +26,7 @@ Wordpress theme for Wikitongues.org.
 - [ ] Reformat emails
   - [ ] Style body
   - [ ] Add language to subject of new video
-- [x] Change hosting
+- [ ] Change hosting
 
 ###Version 1.3
 - [ ] Language localization (i18n for Wordpress)
@@ -37,6 +37,7 @@ Wordpress theme for Wikitongues.org.
 - [ ] Refine overall design
   - [ ] Refine donate page
   - [ ] Refine press page
+- [ ] Clean up code
 
 ###Version 2.0
 - [ ] Video section
